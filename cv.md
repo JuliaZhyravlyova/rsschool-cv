@@ -5,12 +5,12 @@
 #### About me
 I am a result-oriented person. I like to learn new tools and solve complex problems. I'm always ready to multitask.
 #### Skills
-• HTML/CSS.
-• basic knowledge of JS
-• basic knowledge of Python
-• Experience working with the Jira bug tracking system.
-• Fiddler
-• Git
+* HTML/CSS.
+* basic knowledge of JS
+* basic knowledge of Python
+* Experience working with the Jira bug tracking system.
+* Fiddler
+* Git
 #### Code example
 ```
 const func = (num) => {
