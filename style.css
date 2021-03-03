@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    max-width: 1020px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.div_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_header_img {
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+#photo {
+    width: 280px;
+    height: 380px;
+    border: 5px solid black;
+}
+
+@font-face {
+    font-family: DancingScript;
+    src: url(fonts/DancingScript-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Jura;
+    src: url(fonts/Jura-VariableFont_wght.ttf) format("truetype");
+}
+
+h1 {
+    font-family: DancingScript;
+}
+
+.div_header_name {
+    font-size: larger;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.div_header_contact {
+    font-family: Jura;
+}
+
+.ul_header_contact {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    font-family: Jura;
+    display: flex;
+    flex-direction: row;
+}
+
+.right_side {
+    padding-top: 500px;
+}
+
+.left_side {
+    width: 400px;
+    padding-top: 500px;
+    background-color: rgba(206, 189, 40, 0.637);
+}
+
+h4 {
+    padding-left: 40px;
+}
+
+.indent {
+    padding-left: 20px;
+}
+
+.div_footer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.size_icon {
+    width: 40px;
+    height: 40px;
+}
+
+.div_icons {
+    width: 70px;
+    height: 50px;
+    text-align: center;
+}
+
+.span_footer {
+    font-size: 15px;
+}
+
+footer {
+    border: 5px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div_year_footer {
+    width: 150px;
+    height: 50px;
+}
