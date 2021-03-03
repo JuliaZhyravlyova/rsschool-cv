@@ -2,10 +2,14 @@ body {
     padding: 0;
     max-width: 1020px;
     margin: 0 auto;
+    width: 100%;
+
 }
     
 header {
     position: absolute;
+    width: 100%;
+    
 }
     
 .div_header {
@@ -77,3 +81,23 @@ h4 {
 .indent {
     padding-left: 20px;
 }
+.div_footer {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.size_icon {
+    width: 40px;
+    height: 40px;
+   
+}
+.div_icons {
+    width: 1020px;
+    height: 50px;
+}
+.span_footer {
+    font-size: 15px;
+    padding-left: 80px;
+}
+
